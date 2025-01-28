@@ -1,27 +1,41 @@
-Smart Task Manager
+# Smart Task Manager
 
 A simplified web application built with React JS to manage tasks. The primary focus is on task CRUD functionality, a basic dashboard, and minimal real-time interaction. The app allows users to create, read, update, and delete tasks, manage task priority, and track task completion.
 
+## Features
+- **Task Management**: Create, read, update, and delete tasks.
+- **Task Fields**: Manage title, description, due date, and priority for each task.
+- **Simplified Dashboard**: Displays the number of completed and pending tasks.
+- **Dark Mode/Light Mode**: Toggle between light and dark themes for better user experience.
+- **State Management**: Uses Redux for global state management and Context API for dark/light mode handling.
+- **Task Actions**: Use FontAwesome icons for actions such as edit, delete, and mark tasks as complete.
+- **Responsive UI**: Built with Tailwind CSS to ensure the app is responsive and modern across all devices.
 
-Memory updated
-Here's a suggested README.md for your project:
+## Tech Stack
+- **React JS**: JavaScript library for building user interfaces.
+- **Vite**: A modern build tool for fast development and optimal performance.
+- **Tailwind CSS**: A utility-first CSS framework for styling the UI.
+- **FontAwesome**: Icon library used for task actions (edit, delete, complete).
+- **Redux**: State management tool to handle global state for task data.
+- **Context API**: Used to manage dark mode and light mode preferences.
 
-Smart Task Manager
-A simplified web application built with React JS to manage tasks. The primary focus is on task CRUD functionality, a basic dashboard, and minimal real-time interaction. The app allows users to create, read, update, and delete tasks, manage task priority, and track task completion.
+## Installation
+1. Clone this repository to your local machine.
+    ```bash
+    git clone https://github.com/your-username/smart-task-manager.git
+    ```
+2. Navigate to the project directory.
+    ```bash
+    cd smart-task-manager
+    ```
+3. Install dependencies.
+    ```bash
+    npm install
+    ```
+4. Run the app.
+    ```bash
+    npm run dev
+    ```
 
-Features
-Task Management: Create, read, update, and delete tasks.
-Task Fields: Title, description, due date, and priority.
-Simplified Dashboard: Displays the number of completed and pending tasks.
-Dark Mode/Light Mode: Toggle between light and dark themes.
-State Management: Redux to manage global state and Context API for dark mode.
-Icons: FontAwesome icons for task actions (edit, delete, complete).
-Responsive UI: Built using Tailwind CSS for a responsive and modern UI.
-
-Tech Stack
-React JS: JavaScript library for building user interfaces.
-Vite: A modern build tool for fast development.
-Tailwind CSS: A utility-first CSS framework for styling.
-FontAwesome: Icon library for task actions.
-Redux: State management tool for handling global state.
-Context API: Used for managing dark mode and light mode.
+## License
+This project is open-source and available under the [MIT License](LICENSE).

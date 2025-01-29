@@ -18,6 +18,8 @@ A simplified web application built with React JS to manage tasks. The primary fo
 - **FontAwesome**: Icon library used for task actions (edit, delete, complete).
 - **Redux**: State management tool to handle global state for task data.
 - **Context API**: Used to manage dark mode and light mode preferences.
+- **Local Storage**: To persist task data and user preferences (dark/light mode).
+- **React Router**: For navigation between pages/views in the app.
 
 ## Installation
 1. Clone this repository to your local machine.
